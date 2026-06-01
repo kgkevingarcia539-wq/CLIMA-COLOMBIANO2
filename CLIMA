@@ -190,7 +190,7 @@ if ciudad and ciudad != "Seleccione una ciudad de Colombia...":
 
     dias_semana = ["dom", "lun", "mar", "mié", "jue", "vie", "sáb"]
     iconos_simulados = ["☀️", "🌤️", "☁️", "🌧️", "⛈️"]
-    
+         
     html_semana = '<div class="semana-container">'
     fecha_base = datetime.now()
     for i in range(8):
